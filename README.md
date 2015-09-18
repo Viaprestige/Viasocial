@@ -1,5 +1,8 @@
 Viasocial | Advanced Social Plugin
 ==================================
+<img src="https://camo.githubusercontent.com/c4e676117e98cb24160b0fe0a16f29785a9bee97/68747470733a2f2f68616b6972692e696f2f6769746875622f6a656b796c6c2f6a656b796c6c2f6d61737465722e737667" alt="Security" style="max-width:100%;">
+<img src="https://camo.githubusercontent.com/3b5a3e17f9f14d708f73ebbe9bad308f9bf64fe9/68747470733a2f2f696d672e736869656c64732e696f2f67656d6e617369756d2f6a656b796c6c2f6a656b796c6c2e737667" alt="Dependency Status" style="max-width:100%;">
+
 Author  	:  <a href="http://viaprestige-agency.com" target="_blanc">Viaprestige Web Agency</a><br>
 Package 	:  Viasocial | Facebook class<br>
 Version 	:  1.0 Comma release @01/09/2015
@@ -182,3 +185,6 @@ if your are using localhost, please define {url} :
 	$ start my-fantazy-sidebar
 	
 ----------
+License
+----------------
+See <a href="">Viasocial licence</a>
