@@ -169,8 +169,8 @@ See the <a href="https://www.facebook.com/sharer/sharer.php?u=http://viaprestige
 ----------
 ### Demonstration
 
-You'll find Demo in Sample folder.
-if your are using localhost, please define {url} :
+To run a demo, just put the main folder in your localhost WWW.
+then you have to edite facebook.class.php, by defining {url} :
 	    
 	    // Debuging
 	    // $this->settings['url'] = '{url}';
