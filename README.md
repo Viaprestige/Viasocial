@@ -180,11 +180,11 @@ then you have to edite facebook.class.php, by defining {url} :
 
 ### Installation via git
 
-	$ mkdir my-fantazy-sidebar
-	$ cd my-fantazy-sidebar
+	$ mkdir my-Viasocial
+	$ cd my-Viasocial
 	$ git clone https://github.com/Viaprestige/Viasocial
 	$ cd ..
-	$ start my-fantazy-sidebar
+	$ start my-Viasocial
 	
 ----------
 License
