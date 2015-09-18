@@ -1,6 +1,6 @@
 Viasocial | Advanced Social Plugin
 ==================================
-Author  	:  [Viaprestige Web Agency](viaprestige-agency.com)<br>
+Author  	:  <a href="http://viaprestige-agency.com" target="_blanc">Viaprestige Web Agency</a><br>
 Package 	:  Viasocial | Facebook class<br>
 Version 	:  1.0 Comma release @01/09/2015
 
@@ -8,12 +8,12 @@ Version 	:  1.0 Comma release @01/09/2015
 ----------
 
 
-**Viasocial** is a simple PHP plugin, that makes the possibility to **fetch comments from facebook**'s database, using the [Graph API](https://developers.facebook.com/docs/graph-api).
-Viasocial is created specially for [WordPress](https://wordpress.org/), under [Avada](http://theme-fusion.com/avada/) template.
+**Viasocial** is a simple PHP plugin, that makes the possibility to **fetch comments from facebook**'s database, using the <a href="https://developers.facebook.com/docs/graph-api" target="_blank">Graph API</a>.
+Viasocial is created specially for <a href="https://wordpress.org/" target="_blanc">WordPress</a>, under <a href="http://theme-fusion.com/avada/" target="_blanc">Avada</a> template.
 
 The Source of Ideas
 -----------------------
-Two weeks ago we decide to replace the default WordPress comments with [facebook social plugin](https://developers.facebook.com/products/social-plugins) , so at this step  everything is clear except that for example; we can't show the latest comments* in the sidebar, because that facebook social plugin is iframed, means that comments are outside website, and neither WordPress or WordPress's plugins  can do that at this moment (no official methods).
+Two weeks ago we decide to replace the default WordPress comments with <a href="https://developers.facebook.com/products/social-plugins" target="_blanc">facebook social plugin</a>, so at this step  everything is clear except that for example; we can't show the latest comments* in the sidebar, because that facebook social plugin is iframed, means that comments are outside website, and neither WordPress or WordPress's plugins  can do that at this moment (no official methods).
 So we decide to make something simple & clean, then we have chosen PHP, and we avoided using jQuery.
 
 
@@ -39,7 +39,7 @@ For other templates : Our official 'Viasocial' plugin w'll be available soon at 
 Functionalities
 -----------------------
 
- - **Get Comments count** for posts in [website](http://viaprestige-agency.com/optimiser-son-site-internet/).
+ - **Get Comments count** for posts in <a href="http://viaprestige-agency.com/optimiser-son-site-internet/" target="_blanc">website</a>.
  - Get **Shares & Likes count**.
  - **Get Comments**, authors, date&Time, Author's ID, Post's ID, Profile picture.
  - Share the current page in facebook, using **share()**.
@@ -60,7 +60,7 @@ Requirements
 Compatibility
 -------------------
 
-Since [Wordpress 4.2](https://wordpress.org/download/) & [Avada 3.8.5](http://themeforest.net/item/avada-responsive-multipurpose-theme/2833226)
+Since <a href="https://wordpress.org/download/" target="_blanc">Wordpress 4.2</a> & <a href="http://themeforest.net/item/avada-responsive-multipurpose-theme/2833226" target="_blanc">Avada 3.8.5</a>
 
 
 ----------
@@ -102,7 +102,7 @@ Include the facebook class in your project and make a call to it :
 	
 Use function **count('{option}')** :
 
-The object is for example [this article](http://www.viaprestige-lifestyle.com/Tendances/la-cle-usb-google-nouveaute-pour-securiser-les-donnees/)
+The object, is for example this <a href="http://www.viaprestige-lifestyle.com/Tendances/la-cle-usb-google-nouveaute-pour-securiser-les-donnees/" target="_blanc">article</a>
 
 	$object->count('sourceId'); 
 	// Returns the object's ID
@@ -138,7 +138,7 @@ Use function **share()** :
 	$object->share(); 
 	// Returns the current URL to share on Facebook*
 	
-See the [demo](https://www.facebook.com/sharer/sharer.php?u=http://viaprestige-agency.com/).
+See the <a href="https://www.facebook.com/sharer/sharer.php?u=http://viaprestige-agency.com/" target="_blanc">demo</a>.
 
 
 ----------
@@ -150,7 +150,7 @@ See the [demo](https://www.facebook.com/sharer/sharer.php?u=http://viaprestige-a
 
 		/wp-content/themes/Avada/includes
 	
-	Using [FTP client](https://filezilla-project.org/download.php?type=client).
+	Using <a href="https://filezilla-project.org/download.php?type=client" target="_blanc">FTP client</a>.
 
  2. In your WordPress backoffice / Theme options / blog /
  deactivate comments to turn on Viasocial.
@@ -181,3 +181,4 @@ if your are using localhost, please define {url} :
 	$ cd ..
 	$ start my-fantazy-sidebar
 	
+----------
