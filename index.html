@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Viasocial by Viaprestige</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Viasocial</h1>
+      <h2 class="project-tagline">Facebook class to fetch latest comment on website, from facebook database</h2>
+      <a href="https://github.com/Viaprestige/Viasocial" class="btn">View on GitHub</a>
+      <a href="https://github.com/Viaprestige/Viasocial/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/Viaprestige/Viasocial/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="viasocial--advanced-social-plugin" class="anchor" href="#viasocial--advanced-social-plugin" aria-hidden="true"><span class="octicon octicon-link"></span></a>Viasocial | Advanced Social Plugin</h1>
+
+<p><img src="https://camo.githubusercontent.com/c4e676117e98cb24160b0fe0a16f29785a9bee97/68747470733a2f2f68616b6972692e696f2f6769746875622f6a656b796c6c2f6a656b796c6c2f6d61737465722e737667" alt="Security">
+<img src="https://camo.githubusercontent.com/3b5a3e17f9f14d708f73ebbe9bad308f9bf64fe9/68747470733a2f2f696d672e736869656c64732e696f2f67656d6e617369756d2f6a656b796c6c2f6a656b796c6c2e737667" alt="Dependency Status"></p>
+
+<p>Author      :  <a href="http://viaprestige-agency.com" target="_blanc">Viaprestige Web Agency</a><br>
+Package     :  Viasocial | Facebook class<br>
+Version     :  1.0 Comma release @01/09/2015</p>
+
+<hr>
+
+<p><strong>Viasocial</strong> is a simple PHP plugin, that makes the possibility to <strong>fetch comments from facebook</strong>'s database, using the <a href="https://developers.facebook.com/docs/graph-api" target="_blank">Graph API</a>.
+Viasocial is created specially for <a href="https://wordpress.org/" target="_blanc">WordPress</a>, under <a href="http://theme-fusion.com/avada/" target="_blanc">Avada</a> template.</p>
+
+<h2>
+<a id="the-source-of-ideas" class="anchor" href="#the-source-of-ideas" aria-hidden="true"><span class="octicon octicon-link"></span></a>The Source of Ideas</h2>
+
+<p>Two weeks ago we decide to replace the default WordPress comments with <a href="https://developers.facebook.com/products/social-plugins" target="_blanc">facebook social plugin</a>, so at this step  everything is clear except that for example; we can't show the latest comments* in the sidebar, because that facebook social plugin is iframed, means that comments are outside website, and neither WordPress or WordPress's plugins  can do that at this moment (no official methods).
+So we decide to make something simple &amp; clean, then we have chosen PHP, and we avoided using jQuery.</p>
+
+<hr>
+
+<h2>
+<a id="the-bases" class="anchor" href="#the-bases" aria-hidden="true"><span class="octicon octicon-link"></span></a>The bases</h2>
+
+<ul>
+<li>With the facebook's Graph API, we can get a json response from server to navigator, this response contains : comments count, shares count, likes count, comments, authors, date&amp;time, author's ID...</li>
+<li>Viasocial gets these informations from navigator.</li>
+</ul>
+
+<h2>
+<a id="the-work-space" class="anchor" href="#the-work-space" aria-hidden="true"><span class="octicon octicon-link"></span></a>The Work Space</h2>
+
+<p>We choose WordPress as the best work space for our plugin, and we made it <strong>100% compatible</strong> with Avada.
+For other templates : Our <strong>official 'Viasocial' plugin</strong> w'll be available soon at Wordpress.org. (we are working on it right now)</p>
+
+<hr>
+
+<h2>
+<a id="functionalities" class="anchor" href="#functionalities" aria-hidden="true"><span class="octicon octicon-link"></span></a>Functionalities</h2>
+
+<ul>
+<li>
+<strong>Get Comments count</strong> for posts in <a href="http://viaprestige-agency.com/optimiser-son-site-internet/" target="_blanc">website</a>.</li>
+<li>Get <strong>Shares &amp; Likes count</strong>.</li>
+<li>
+<strong>Get Comments</strong>, authors, date&amp;Time, Author's ID, Post's ID, Profile picture.</li>
+<li>Share the current page in facebook, using <strong>share()</strong>.</li>
+<li>Avoid installing unnecessary plugins in your website.</li>
+<li>Compatible with Avada .po .</li>
+<li>Fully customizable, with additional CSS class.</li>
+<li>Viasocial is crystal clear, and simple to manipulate.</li>
+</ul>
+
+<hr>
+
+<h2>
+<a id="requirements" class="anchor" href="#requirements" aria-hidden="true"><span class="octicon octicon-link"></span></a>Requirements</h2>
+
+<ul>
+<li>
+<a href="https://developers.facebook.com/docs/plugins/comments">Facebook comments plugin</a> (JS).</li>
+<li>Wordpress &amp; Avada updates.</li>
+</ul>
+
+<h2>
+<a id="compatibility" class="anchor" href="#compatibility" aria-hidden="true"><span class="octicon octicon-link"></span></a>Compatibility</h2>
+
+<p>Since <a href="https://wordpress.org/download/" target="_blanc">Wordpress 4.2</a> &amp; <a href="http://themeforest.net/item/avada-responsive-multipurpose-theme/2833226" target="_blanc">Avada 3.8.5</a></p>
+
+<hr>
+
+<h2>
+<a id="components" class="anchor" href="#components" aria-hidden="true"><span class="octicon octicon-link"></span></a>Components</h2>
+
+<p>Viasocial folder :</p>
+
+<pre><code>.viasocial
++-- class
+|   --- facebook.class.php
++-- assets
+|   +-- css
+|   +-- js
+|   +-- img
+</code></pre>
+
+<p>Avada folder :  </p>
+
+<pre><code>.Avada 3.8.6
+|+--.includes
+|   |   +-- .viasocial
+|   |   --- .class-fusion-widget-tabs.php
+|   |   --- .class-fusion-widget-tabs.php.bak
+</code></pre>
+
+<hr>
+
+<h2>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h2>
+
+<h3>
+<a id="standard-intagration-developers" class="anchor" href="#standard-intagration-developers" aria-hidden="true"><span class="octicon octicon-link"></span></a>Standard intagration (developers)</h3>
+
+<p>Include the facebook class in your project and make a call to it :</p>
+
+<pre><code>include_once('class/facebook.class.php');
+$object = new Facebook();
+</code></pre>
+
+<p>Use function <strong>count('{option}')</strong> :</p>
+
+<p>The object, is for example this <a href="http://www.viaprestige-lifestyle.com/Tendances/la-cle-usb-google-nouveaute-pour-securiser-les-donnees/" target="_blanc">article</a></p>
+
+<pre><code>$object-&gt;count('sourceId'); 
+// Returns the object's ID
+$object-&gt;count('commentsCount'); 
+// Returns comments count
+$object-&gt;count('sharesCount'); 
+// Returns shares &amp; likes count *
+// * shares and likes are both counted in the same time
+</code></pre>
+
+<p>Use function <strong>fetch('{option},{limit}')</strong> :</p>
+
+<pre><code>$object-&gt;fetch('all','5'); 
+// Returns full data : comment, author, date&amp;time, limited by 5
+$object-&gt;fetch('custom','5'); 
+// Returns full data with custom profile picture
+$object-&gt;fetch('authorId','5'); 
+// Returns authors IDs
+$object-&gt;fetch('author','5'); 
+// Returns authors names
+$object-&gt;fetch('picture','5'); 
+// Returns user's profile picture
+$object-&gt;fetch('message','5'); 
+// Returns messages (comments)
+$object-&gt;fetch('datetime','5'); 
+// Returns date&amp;time of publishing
+$object-&gt;fetch('date','5'); 
+// Returns date of publishing
+$object-&gt;fetch('time','5'); 
+// Returns time of publishing
+</code></pre>
+
+<p>Use function <strong>share()</strong> :</p>
+
+<pre><code>$object-&gt;share(); 
+// Returns the current URL to share on Facebook*
+</code></pre>
+
+<p>See the <a href="https://www.facebook.com/sharer/sharer.php?u=http://viaprestige-agency.com/" target="_blanc">demo</a>.</p>
+
+<hr>
+
+<h3>
+<a id="wordpress-intagration-avada" class="anchor" href="#wordpress-intagration-avada" aria-hidden="true"><span class="octicon octicon-link"></span></a>Wordpress intagration (Avada)</h3>
+
+<ol>
+<li>
+<p>Copy all contents of <strong>. /  includes</strong> folder into your website :</p>
+
+<pre><code>/wp-content/themes/Avada/includes
+</code></pre>
+
+<p>Using <a href="https://filezilla-project.org/download.php?type=client" target="_blanc">FTP client</a>.</p>
+</li>
+<li><p>In your WordPress backoffice / Theme options / blog /
+deactivate comments to turn on Viasocial.</p></li>
+<li>
+<p>Put this custom css in your style :</p>
+
+<pre><code>.via-picture-box{
+    float: left;
+    margin-right: 15px;
+    height: 50px;
+    width: 50px;
+}
+</code></pre>
+</li>
+</ol>
+
+<hr>
+
+<h3>
+<a id="demonstration" class="anchor" href="#demonstration" aria-hidden="true"><span class="octicon octicon-link"></span></a>Demonstration</h3>
+
+<p>To run a demo, just put the main folder in your localhost WWW.
+then you have to edite facebook.class.php, by defining {url} :</p>
+
+<pre><code>    // Debuging
+    // $this-&gt;settings['url'] = '{url}';
+</code></pre>
+
+<h3>
+<a id="installation-via-git" class="anchor" href="#installation-via-git" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation via git</h3>
+
+<pre><code>$ mkdir my-fantazy-sidebar
+$ cd my-fantazy-sidebar
+$ git clone https://github.com/Viaprestige/Viasocial
+$ cd ..
+$ start my-fantazy-sidebar
+</code></pre>
+
+<hr>
+
+<h2>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span class="octicon octicon-link"></span></a>License</h2>
+
+<p>See <a href="https://github.com/Viaprestige/Viasocial/blob/master/LICENSE">Viasocial licence</a></p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/Viaprestige/Viasocial">Viasocial</a> is maintained by <a href="https://github.com/Viaprestige">Viaprestige</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+            <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-60843284-2");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
