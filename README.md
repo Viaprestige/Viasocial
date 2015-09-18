@@ -187,4 +187,4 @@ if your are using localhost, please define {url} :
 ----------
 License
 ----------------
-See <a href="">Viasocial licence</a>
+See <a href="https://github.com/Viaprestige/Viasocial/blob/master/LICENSE">Viasocial licence</a>
