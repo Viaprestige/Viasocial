@@ -33,7 +33,7 @@ The Work Space
 -----------------------
 
 We choose WordPress as the best work space for our plugin, and we made it **100% compatible** with Avada.
-For other templates : Our official 'Viasocial' plugin w'll be available soon at Wordpress.org. (we are working on it right now)
+For other templates : Our **official 'Viasocial' plugin** w'll be available soon at Wordpress.org. (we are working on it right now)
 
 
 ----------
@@ -48,6 +48,7 @@ Functionalities
  - Share the current page in facebook, using **share()**.
  - Avoid installing unnecessary plugins in your website.
  - Compatible with Avada .po .
+ - Fully customizable, with additional CSS class.
  - Viasocial is crystal clear, and simple to manipulate.
 
 
