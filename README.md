@@ -1,7 +1,7 @@
 Viasocial | Advanced Social Plugin
 ==================================
-Author  	:  [Viaprestige Web Agency](viaprestige-agency.com)
-Package 	:  Viasocial | Facebook class
+Author  	:  [Viaprestige Web Agency](viaprestige-agency.com)<br>
+Package 	:  Viasocial | Facebook class<br>
 Version 	:  1.0 Comma release @01/09/2015
 
 
