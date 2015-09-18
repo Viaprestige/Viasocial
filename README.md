@@ -59,7 +59,7 @@ Functionalities
 Requirements
 --------------------
 
- - [Facebook comments plugin](https://developers.facebook.com/docs/plugins/comments) (JS).
+ - <a href="https://developers.facebook.com/docs/plugins/comments" target="_blanc">Facebook comments plugin(JS).
  - Wordpress & Avada updates.
 
 Compatibility
