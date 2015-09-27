@@ -12,8 +12,8 @@ Class Facebook {
 
     protected $_settings = array(
         'api'       => 'https://graph.facebook.com/',    // Graph API Base URL
-        'parameter' => '',							    // Graph API Parameters
-        'fields' 	=> '',                             // Graph API Fields
+        'parameter' => '',				// Graph API Parameters
+        'fields' 	=> '',                         // Graph API Fields
         'version'   => 'v2.4',                        // API Version
         'appId'     => '',                           // Client ID
         'appSecret' => '',                          // Client Secret Access
