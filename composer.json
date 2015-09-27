@@ -1,5 +1,5 @@
 {
-    "name": "Viaprestige/Viasocial",
+    "name": "viaprestige/viasocial",
     "type": "library",
     "description": "Facebook class to fetch latest comment on website, from facebook database",
     "keywords": ["facebook comments","recents comment facebook"],
