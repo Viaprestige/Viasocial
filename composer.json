@@ -1,8 +1,0 @@
-{
-    "name": "Viaprestige/Viasocial",
-    "description": "Facebook class to fetch latest comment on website, from facebook database",
-    "require": {
-        "php": ">=5.4.0",
-        "/bagder/curl": "1.*"
-    }
-}
