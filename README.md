@@ -200,7 +200,16 @@ Returns time of publishing
 
 ----------
 
-Use function **share()** :
+Use **plugin('{option}')** function :
+
+Returns Facebook social plugins
+
+	$plugin_object = new Facebook('','');
+	$plugin_object->plugin('');
+
+----------
+
+Use **share()** (Upcoming) function :
 
 Returns the current URL to share on Facebook
 
@@ -235,7 +244,7 @@ See the <a href="https://www.facebook.com/sharer/sharer.php?u=http://viaprestige
 ### Demonstration
 
 To run a demo, just put the main folder in your localhost WWW.
-then you have to edite facebook.class.php, by defining {url} in :
+then you have to edite facebook.class.php, by defining {url} in constructor :
 	    
 	    // Debuging
 	    // $this->settings['url'] = '{url}';
