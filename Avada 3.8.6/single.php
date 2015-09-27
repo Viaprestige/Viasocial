@@ -232,13 +232,18 @@
 			<div id="respond" class="fusion-title title sep-underline sep-dotted">
 			<h2 class="title-heading-left"><?php _e( 'Leave a comment', 'Avada' ); ?></h2>
 			</div>
-			<?php
-			// Viasocial | comment plugin
-			include_once('includes/viasocial/class/facebook.class.php');
-			$viasocial = new Facebook('{app-id}','{app-secret}');
-			$viasocial->plugin('comment');
-			// End Viasocial
-			?>
+			<!-- Facebook plugin | Viaprestige Web Agency-->
+				<div id="fb-root"></div>
+				<script>(function(d, s, id) {
+				  var js, fjs = d.getElementsByTagName(s)[0];
+				  if (d.getElementById(id)) return;
+				  js = d.createElement(s); js.id = id;
+				  js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.4&appId=1643748329236477";
+				  fjs.parentNode.insertBefore(js, fjs);
+				}(document, 'script', 'facebook-jssdk'));
+				</script>
+				<div class="fb-comments" data-href="<?php echo $_SERVER["HTTP_HOST"].$_SERVER["REQUEST_URI"]?>" data-width="830px" data-numposts="20"></div>
+			<!-- END Facebook plugin -->
 			<?php endif; ?>
 			<?php endif; ?>
 		</div>

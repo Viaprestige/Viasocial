@@ -158,11 +158,11 @@ class Fusion_Widget_Tabs extends WP_Widget {
 											<?php endif; ?>
 								<?php else : ?>
 								<?php include_once('viasocial/class/facebook.class.php');
-								$viasocial = new Facebook('{app-id}','{app-secret}');
-								$viasocial->count('commentsCount'); ?>
-								<?php if ($viasocial->count('commentsCount') !== 0) : ?>
+								$viasocial = new Facebook();
+								$comment_count 	= $viasocial->count('commentsCount'); ?>
+								<?php if ($comment_count !== 0) : ?>
 								<?php $viasocial->fetch('all','4'); ?>
-								<?php elseif ($viasocial->count('commentsCount') == 0) :?>
+								<?php elseif ($comment_count == 0) :?>
 								<li><?php _e( 'No comments have been published yet.', 'Avada' ); ?></li>
 								<?php endif; ?>
 								<?php endif; ?>
