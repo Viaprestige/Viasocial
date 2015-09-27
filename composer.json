@@ -4,6 +4,7 @@
     "description": "Facebook class to fetch latest comment on website, from facebook database",
     "keywords": ["facebook comments","recents comment facebook"],
     "homepage": "http://viaprestige.github.io/Viasocial/",
+    "license": "MIT",
     "authors": [
         {
             "name": "JIHAD SINNAOUR",
