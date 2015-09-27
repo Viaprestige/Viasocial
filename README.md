@@ -143,7 +143,7 @@ Create instance and define {app-id} & {app-secret} :
 
 	$object = new Facebook('{app-id}','{app-secret}');
 	
-See more informations about {app-id} & {app-secret} <a href="#faqs"HERE</a>
+See more informations about {app-id} & {app-secret} <a href="#faqs">HERE</a>
 	
 Use **count('{option}')** function :
 
