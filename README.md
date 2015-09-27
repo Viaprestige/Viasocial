@@ -55,7 +55,6 @@ Functionalities
  - Fully customizable, with additional CSS class.
  - Viasocial is crystal clear, and simple to manipulate.
 
-----------
 
 Upcoming
 -----------------------
