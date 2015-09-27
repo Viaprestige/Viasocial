@@ -143,7 +143,7 @@ Create instance and define {app-id} & {app-secret} :
 
 	$object = new Facebook('{app-id}','{app-secret}');
 	
-See more informations about {app-id} & {app-secret} HERE
+See more informations about {app-id} & {app-secret} <a href="#faqs"HERE</a>
 	
 Use **count('{option}')** function :
 
@@ -152,14 +152,22 @@ The object, is for example this <a href="http://www.viaprestige-lifestyle.com/Te
 Returns the object's ID :
 
 	$object->count('sourceId'); 
+	
+Returns the object's Type :
+
+	$object->count('sourceType'); 
+	
+Returns the object's URL :
+
+	$object->count('sourceUrl'); 
 
 Returns comments count :
 
-	$object->count('commentsCount'); 
+	$object->count('commentCount'); 
 
 Returns shares & likes count * :
 
-	$object->count('sharesCount'); 
+	$object->count('shareCount'); 
 
 **Notice** : * shares and likes are both counted in the same time
 	
