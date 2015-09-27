@@ -1,15 +1,19 @@
 <?php
 include_once('Avada 3.8.6/viasocial/class/facebook.class.php');
 
-$object = new Facebook();
+$object = new Facebook('{app-id}','{app-secret}');
 
 // count('{option}') :
 
 $object->count('sourceId'); // Returns the object's ID
 
-$object->count('commentsCount'); // Returns comments count
+$object->count('sourceType'); // Returns the object's Type eg. Website
 
-$object->count('sharesCount'); // Returns shares & likes count *
+$object->count('sourceUrl'); // Returns the object's URL
+
+$object->count('commentCount'); // Returns comments count
+
+$object->count('shareCount'); // Returns shares & likes count *
 
 // * shares and likes are both counted in the same time
 
@@ -33,8 +37,8 @@ $object->fetch('date','5'); // Returns date of publishing
 
 $object->fetch('time','5'); // Returns time of publishing
 
-// share() :
+// plugin('{option}') :
 
-$object->share(); // Returns the current URL to share on Facebook
+$object->plugin('comment'); // Returns the Facebook comments plugin
 
 ?>
