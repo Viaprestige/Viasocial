@@ -256,4 +256,4 @@ Read this <a href="https://support.appmachine.com/hc/en-us/articles/203645706-Cr
 
 License
 ----------------
-See <a href="https://github.com/Viaprestige/Viasocial/blob/master/LICENSE">Viasocial licence</a>
+[![License](https://poser.pugx.org/viaprestige/viasocial/license)](https://packagist.org/packages/viaprestige/viasocial)
