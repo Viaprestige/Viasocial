@@ -128,7 +128,7 @@ Installation
 ### Startup intagration (developers)
 Install Viasocial/facebook.class.php via composer :
 
-	$ composer require Viaprestige/Viasocial
+	$ composer require viaprestige/viasocial
 	
 Clone repo via Git
 
