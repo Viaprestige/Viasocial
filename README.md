@@ -202,7 +202,7 @@ Returns time of publishing
 
 Use **plugin('{option}')** function :
 
-Returns Facebook social plugins
+Returns <a href="https://developers.facebook.com/docs/plugins" target="_blanc">Facebook social plugins</a>
 
 	$plugin_object = new Facebook('','');
 	$plugin_object->plugin('');
