@@ -1,5 +1,5 @@
 <?php
-include_once('Avada 3.8.6/viasocial/class/facebook.class.php');
+include_once('Avada 3.8.6/Viasocial/class/facebook.class.php');
 
 $object = new Facebook('{app-id}','{app-secret}');
 

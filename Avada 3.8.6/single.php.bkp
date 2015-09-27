@@ -228,17 +228,6 @@
 				wp_reset_query();
 				comments_template();
 				?>
-			<?php else : ?>
-			<div id="respond" class="fusion-title title sep-underline sep-dotted">
-			<h2 class="title-heading-left"><?php _e( 'Leave a comment', 'Avada' ); ?></h2>
-			</div>
-			<?php
-			// Viasocial | comment plugin
-			include_once('includes/Viasocial/class/facebook.class.php');
-			$viasocial = new Facebook('{app-id}','{app-secret}');
-			$viasocial->plugin('comment');
-			// End Viasocial
-			?>
 			<?php endif; ?>
 			<?php endif; ?>
 		</div>
