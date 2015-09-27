@@ -99,7 +99,7 @@ Components
 
 Viasocial folder :
 
-	.viasocial
+	.Viasocial
 	+-- class
 	|   --- facebook.class.php
 	+-- assets
@@ -111,7 +111,7 @@ Avada folder :
 
 	.Avada 3.8.6
 	|+--.includes
-	|	|   +-- .viasocial
+	|	|   +-- .Viasocial
 	|	|   --- .class-fusion-widget-tabs.php
 	|	|   --- .class-fusion-widget-tabs.php.bak
 
@@ -129,11 +129,11 @@ Install Viasocial/facebook.class.php via composer :
 	
 Clone repo via Git
 
-	$ mkdir viasocial
-	$ cd viasocial
+	$ mkdir Viasocial
+	$ cd Viasocial
 	$ git clone https://github.com/Viaprestige/Viasocial
 	$ cd ..
-	$ start viasocial
+	$ start Viasocial
 	
 Include the facebook class in your project and make a call to it :
 
