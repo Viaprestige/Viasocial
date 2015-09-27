@@ -1,6 +1,7 @@
 Viasocial | Advanced Social Plugin
 ==================================
 
+
 <a href="https://developers.facebook.com/docs/facebook-login/security" target="_blanc"><img src="http://viaprestige.github.io/Viasocial/img/7465722e737667.svg" alt="Security" style="max-width:100%;"></a>
 <img src="http://viaprestige.github.io/Viasocial/img/2f6a656b796c6c2.svg" alt="Dependency Status" style="max-width:100%;">
 
