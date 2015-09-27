@@ -7,7 +7,7 @@ Viasocial | Advanced Social Plugin
 Author  	:  <a href="http://viaprestige-agency.com" target="_blanc">Viaprestige Web Agency</a><br>
 Package 	:  Viasocial | Facebook class<br>
 Version 	:  1.0 Comma release @01/09/2015<br>
-Official website : http://viaprestige.github.io/Viasocial
+Official website : http://viaprestige.github.io/Viasocial<br>
 Demo : <a href="http://apps.jihadsinnaour.com/Viasocial/" target="_blanc">Viasocial demo website</a>
 
 @01/09/2015
@@ -22,7 +22,7 @@ Viasocial is created specially for <a href="https://wordpress.org/" target="_bla
 The Source of Ideas
 -----------------------
 Two weeks ago we decide to replace the default WordPress comments with <a href="https://developers.facebook.com/products/social-plugins" target="_blanc">facebook social plugin</a>, so at this step  everything is clear except that for example; we can't show the latest comments* in the sidebar, because that facebook social plugin is iframed, means that comments are outside website, and thats generate <a href="https://fr.wikipedia.org/wiki/Optimisation_pour_les_moteurs_de_recherche" target="_blanc">SEO</a> problems. At this moment neither WordPress or WordPress's plugins  can do that (no <a href="https://profiles.wordpress.org/facebook/" target="_blanc">official</a> methods).
-So we decide to make something simple & clean, then we have chosen PHP, and we avoided using jQuery.
+So we decide to make something simple & clean, then we have chosen PHP, and we avoided using jQuery.<br>
 <strong>Notice</strong> : this plugin is totally different than <a href="https://wordpress.org/plugins/facebook/" target="_blanc">Facebook WordPress plugin</a>, and nothing is inspired form it at all.
 
 
@@ -72,14 +72,14 @@ Compatibility
 
 Since <a href="https://wordpress.org/download/" target="_blanc">Wordpress 4.2</a> & <a href="http://themeforest.net/item/avada-responsive-multipurpose-theme/2833226" target="_blanc">Avada 3.8.5</a>
 
-Viasocial startup release is simple & flexible & compatible with popular CMS :
-<a href="http://drupalfr.org/" target="_blanc"><img src="http://viaprestige.github.io/Viasocial/img/viasocial_drupal.png" alt="Drupal" style="max-width:100%;"></a> | <a href="https://www.joomla.org/" target="_blanc"><img src="http://viaprestige.github.io/Viasocial/img/viasocial_joomla.png" alt="Joomla!" style="max-width:100%;"></a> | <a href="https://www.prestashop.com/fr/" target="_blanc"><img src="http://viaprestige.github.io/Viasocial/img/viasocial_prestashop.png" alt="Prestashop" style="max-width:100%;"></a> | <a href="http://magento.com/" target="_blanc"><img src="http://viaprestige.github.io/Viasocial/img/viasocial_magento.png" alt="Magento" style="max-width:100%;"></a> | <a href="http://modx.com/" target="_blanc"><img src="http://viaprestige.github.io/Viasocial/img/viasocial_modx.png" alt="Modx" style="max-width:100%;"></a>
+Viasocial startup release is simple & flexible & compatible with popular CMS :<br>
+<a href="http://drupalfr.org/" target="_blanc"><img src="http://viaprestige.github.io/Viasocial/img/viasocial_drupal.png" alt="Drupal" style="max-width:100%;"></a> | <a href="https://www.joomla.org/" target="_blanc"><img src="http://viaprestige.github.io/Viasocial/img/viasocial_joomla.png" alt="Joomla!" style="max-width:100%;"></a> | <a href="https://www.prestashop.com/fr/" target="_blanc"><img src="http://viaprestige.github.io/Viasocial/img/viasocial_prestashop.png" alt="Prestashop" style="max-width:100%;"></a> | <a href="http://magento.com/" target="_blanc"><img src="http://viaprestige.github.io/Viasocial/img/viasocial_magento.png" alt="Magento" style="max-width:100%;"></a> | <a href="http://modx.com/" target="_blanc"><img src="http://viaprestige.github.io/Viasocial/img/viasocial_modx.png" alt="Modx" style="max-width:100%;"></a><br>
 Depending on your customization.
 
 ----------
 
-And tested with success with popular plugins :
-The powerfull cache engine : <a href="http://wp-rocket.me/fr/" target="_blanc">WP Rocket</a>
+And tested with success with popular plugins :<br>
+The powerfull cache engine : <a href="http://wp-rocket.me/fr/" target="_blanc">WP Rocket</a><br>
 
 tested with success with latest WordPress core : <a href="https://github.com/WordPress/WordPress" target="_blanc">v4.4</a>
 
