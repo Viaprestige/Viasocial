@@ -138,9 +138,14 @@ Clone repo via Git
 Include the facebook class in your project and make a call to it :
 
 	include_once('class/facebook.class.php');
-	$object = new Facebook();
 	
-Use function **count('{option}')** :
+Create instance and define {app-id} & {app-secret} :
+
+	$object = new Facebook('{app-id}','{app-secret}');
+	
+See more informations about {app-id} & {app-secret} HERE
+	
+Use **count('{option}')** function :
 
 The object, is for example this <a href="http://www.viaprestige-lifestyle.com/Tendances/la-cle-usb-google-nouveaute-pour-securiser-les-donnees/" target="_blanc">article</a>
 
