@@ -78,7 +78,7 @@ Depending on your customization.
 And tested with success with popular plugins :<br>
 The powerfull cache engine : <a href="http://wp-rocket.me/fr/" target="_blanc">WP Rocket</a><br>
 
-tested with success with latest WordPress core : <a href="https://github.com/WordPress/WordPress" target="_blanc">v4.4</a>
+Tested with success with latest WordPress core : <a href="https://github.com/WordPress/WordPress" target="_blanc">v4.4</a>
 
 ----------
 
