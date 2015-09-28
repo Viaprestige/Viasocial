@@ -252,11 +252,11 @@ See the <a href="https://www.facebook.com/sharer/sharer.php?u=http://viaprestige
 		    height: 50px;
 		    width: 50px;
 		}
-		.via-datetime {
-    		   font-size: 12px;
+		.via-datetime{
+    		font-size: 12px;
 		}
 		.via-author {
-    		   text-transform: uppercase;
+    		text-transform: uppercase;
 		}
 
 ----------
