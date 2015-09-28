@@ -199,7 +199,7 @@ Returns messages (comments)
 
 	$object->fetch('message','5'); 
 
-Returns date&time of publishing
+Returns date & time of publishing
 
 	$object->fetch('datetime','5'); 
 
