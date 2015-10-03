@@ -5,6 +5,7 @@ Viasocial | Advanced Social Plugin
 Author  	:  <a href="http://viaprestige-agency.com" target="_blanc">Viaprestige Web Agency</a><br>
 Package 	:  Viasocial | Facebook class<br>
 Version 	:  1.0 Stable release<br>
+Graph API	:  2.4
 Official website : http://viaprestige.github.io/Viasocial<br>
 Demo : <a href="http://apps.jihadsinnaour.com/Viasocial/" target="_blanc">Viasocial demo website</a>
 
