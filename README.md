@@ -2,11 +2,12 @@ Viasocial | Advanced Social Plugin
 ==================================
 [![Latest Stable Version](https://poser.pugx.org/viaprestige/viasocial/version)](https://packagist.org/packages/viaprestige/viasocial) [![Latest Unstable Version](https://poser.pugx.org/viaprestige/viasocial/v/unstable)](//packagist.org/packages/viaprestige/viasocial) [![Total Downloads](https://poser.pugx.org/viaprestige/viasocial/downloads)](https://packagist.org/packages/viaprestige/viasocial)
 
-Author  	:  <a href="http://viaprestige-agency.com" target="_blanc">Viaprestige Web Agency</a><br>
-Package 	:  Viasocial | Facebook class<br>
-Version 	:  1.0 Stable release<br>
-Graph API	:  2.4<br>
+Author  	 :  <a href="http://viaprestige-agency.com" target="_blanc">Viaprestige Web Agency</a><br>
+Package 	 :  Viasocial | Facebook class<br>
+Version 	 :  1.0 Stable release<br>
+Graph API	 :  2.4<br>
 Official website : http://viaprestige.github.io/Viasocial<br>
+WordPress plugin : https://wordpress.org/plugins/viasocial<br>
 Demo : <a href="http://apps.jihadsinnaour.com/Viasocial/" target="_blanc">Viasocial demo website</a>
 
 @01/09/2015
