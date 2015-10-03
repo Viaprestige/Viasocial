@@ -38,7 +38,8 @@ The Work Space
 -----------------------
 
 We choose WordPress as the best work space for our plugin, and we made it **100% compatible** with Avada.
-For other <a href="http://themeforest.net/popular_item/by_category?category=wordpress" target="_blanc">templates</a> : Our **official 'Viasocial' plugin** w'll be available soon at Wordpress.org. (we are working on it right now)
+For other <a href="http://themeforest.net/popular_item/by_category?category=wordpress" target="_blanc">templates</a> :<br>
+Use our official plugin <a href="https://wordpress.org/plugins/viasocial/" target="_blanc">Visaocial for WordPress</a>. 
 
 
 ----------
