@@ -6,12 +6,12 @@ Author  	 :  <a href="http://viaprestige-agency.com" target="_blanc">Viaprestige
 Package 	 :  Viasocial | Facebook class<br>
 Version 	 :  1.0 Stable release<br>
 Graph API	 :  2.4<br>
+Date		 :  01/09/2015
 <ul>
 <li><a href="http://viaprestige.github.io/Viasocial" target="_blanc">Official Website</a></li>
 <li><a href="https://wordpress.org/plugins/viasocial" target="_blanc">WordPress Widget plugin</a></li>
 <li><a href="http://apps.jihadsinnaour.com/Viasocial/" target="_blan">Viasocial demo website</a></li>
 </ul>
-@<strong>01/09/2015</strong>
 
 ----------
 
@@ -23,8 +23,11 @@ Summary
 <li><a href="#the-bases">The bases</a></li>
 <li><a href="#the-work-space">The Work Space</a></li>
 <li><a href="#functionalities">Functionalities</a></li>
-<li><a href="#functionalities">Functionalities</a></li>
-<li><a href="#functionalities">Functionalities</a></li>
+<li><a href="#upcoming">Upcoming</a></li>
+<li><a href="#compatibility">Compatibility</a></li>
+<li><a href="#requirements">Requirements</a></li>
+<li><a href="#components">Components</a></li>
+<li><a href="#installation">Installation</a></li>
 </ul>
 
 ----------
