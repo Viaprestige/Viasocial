@@ -6,10 +6,11 @@ Author  	 :  <a href="http://viaprestige-agency.com" target="_blanc">Viaprestige
 Package 	 :  Viasocial | Facebook class<br>
 Version 	 :  1.0 Stable release<br>
 Graph API	 :  2.4<br>
-Official website : http://viaprestige.github.io/Viasocial<br>
-WordPress plugin : https://wordpress.org/plugins/viasocial<br>
-Demo : <a href="http://apps.jihadsinnaour.com/Viasocial/" target="_blanc">Viasocial demo website</a>
-
+<ul>
+<li><a href="http://viaprestige.github.io/Viasocial" target="_blanc">Official Website</li>
+<li><a href="https://wordpress.org/plugins/viasocial" target="_blanc">WordPress Widget plugin</li>
+<li><a href="http://apps.jihadsinnaour.com/Viasocial/" target="_blan">Viasocial demo website</a></li>
+</ul>
 @01/09/2015
 
 
