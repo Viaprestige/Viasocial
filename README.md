@@ -11,7 +11,7 @@ Graph API	 :  2.4<br>
 <li><a href="https://wordpress.org/plugins/viasocial" target="_blanc">WordPress Widget plugin</li>
 <li><a href="http://apps.jihadsinnaour.com/Viasocial/" target="_blan">Viasocial demo website</a></li>
 </ul>
-@01/09/2015
+@<strong>01/09/2015</strong>
 
 
 ----------
