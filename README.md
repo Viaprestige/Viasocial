@@ -7,15 +7,27 @@ Package 	 :  Viasocial | Facebook class<br>
 Version 	 :  1.0 Stable release<br>
 Graph API	 :  2.4<br>
 <ul>
-<li><a href="http://viaprestige.github.io/Viasocial" target="_blanc">Official Website</li>
-<li><a href="https://wordpress.org/plugins/viasocial" target="_blanc">WordPress Widget plugin</li>
+<li><a href="http://viaprestige.github.io/Viasocial" target="_blanc">Official Website</a></li>
+<li><a href="https://wordpress.org/plugins/viasocial" target="_blanc">WordPress Widget plugin</a></li>
 <li><a href="http://apps.jihadsinnaour.com/Viasocial/" target="_blan">Viasocial demo website</a></li>
 </ul>
 @<strong>01/09/2015</strong>
 
-
 ----------
 
+Summary
+-----------------------
+
+<ul>
+<li><a href="#the-source-of-ideas">The Source of Ideas</a></li>
+<li><a href="#the-bases">The bases</a></li>
+<li><a href="#the-work-space">The Work Space</a></li>
+<li><a href="#functionalities">Functionalities</a></li>
+<li><a href="#functionalities">Functionalities</a></li>
+<li><a href="#functionalities">Functionalities</a></li>
+</ul>
+
+----------
 
 **Viasocial** is a simple PHP plugin, that makes the possibility to **fetch comments from facebook**'s database, using the <a href="https://developers.facebook.com/docs/graph-api" target="_blank">Graph API</a>.
 Viasocial is created specially for <a href="https://wordpress.org/" target="_blanc">WordPress</a>, under <a href="http://theme-fusion.com/avada/" target="_blanc">Avada</a> template.
