@@ -112,8 +112,11 @@ Viasocial folder :
 	|   +-- img
 
 Avada folder :  
-
+	
 	.Avada 3.8.6
+	|+--.single.php
+	|+--.single.php.bak
+	|+--.Readme.txt
 	|+--.includes
 	|	|   +-- .Viasocial
 	|	|   --- .class-fusion-widget-tabs.php
