@@ -5,8 +5,9 @@ Viasocial | Advanced Social Plugin
 <strong>Author</strong> :  <a href="http://viaprestige-agency.com" target="_blanc">Viaprestige Web Agency</a><br>
 <strong>Package</strong> :  Viasocial | Facebook class<br>
 <strong>Version</strong> :  1.0 Stable release<br>
-<strong>Graph API</strong> :  2.4<br>
-<strong>Date</strong>:  01/09/2015
+<strong>Graph API</strong> :  2.5<br>
+<strong>Date</strong>:  01/09/2015<br>
+<strong>Update</strong>	:  12/10/2015
 <ul>
 <li><a href="http://viaprestige.github.io/Viasocial" target="_blanc">Official Website</a></li>
 <li><a href="https://wordpress.org/plugins/viasocial" target="_blanc">WordPress Widget plugin</a></li>
