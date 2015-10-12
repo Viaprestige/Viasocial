@@ -2,8 +2,8 @@
 /**
 * @author  :  Viaprestige | JIHAD SINNAOUR
 * @package :  Viasocial | Facebook class
-* @version :  1.0 Comma release @01/09/2015
-* @param   :  Facebook Graph API v2.4
+* @version :  1.0 Stable release @01/09/2015
+* @param   :  Facebook Graph API v2.5 @12/10/2015
 * @return  :  json, Array[], String
 */
 
